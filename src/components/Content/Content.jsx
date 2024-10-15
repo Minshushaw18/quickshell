@@ -246,7 +246,7 @@ function Content({ statuses, priorities, priorityScores, grouping, ordering }) {
                                 <div className='dashboard-list'>
                                     <div className='dashboard-list-header-controls'>
                                         <div className='dashboard-list-header-controls-info'>
-                                            <div>{<img src={prioritiesIcon[key]}></img>}</div>
+                                            <div>{<img src={prioritiesIcon[key]} alt=' '></img>}</div>
                                             <b><p className='dashboard-list-header'>{priorities[key]}</p></b>
                                             <div className='dashboard-list-items-count'>{ticketList.length}</div>
                                         </div>
